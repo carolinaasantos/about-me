@@ -1,0 +1,155 @@
+:root {
+    --main-cinza: #CCCCCC;
+    --main-branco: #FFFFFF;
+    --main-preto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    background: url(../img/wallpaper.jpg);
+    background-position: center center;
+    background-size: cover cover;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+#cabecalho {
+    color: black;
+    margin: 0px 20px -10px;
+}
+
+.texto {
+    color: black;
+    padding: 0px;
+    margin: -10px 0px 0px 0px;
+    font-size:15px;
+}
+
+.titulo {
+    font-family: 'Jost', sans-serif;
+    border-radius: 20px;
+    display: inline-flex;
+    margin: 10px 5px -10px 20px;
+    /*padding: 20px;*/
+    align-items: center;
+    align-self: flex-end;
+}
+
+#conteudo-1 {
+    float:left;
+    width:34%;
+    /*height:470px;
+    /*background:#bfb;*/
+}
+
+#conteudo-2 {
+    float:right;
+    width:66%;
+    /*height:470px;*/
+}
+
+#conteudo-2-1 {
+    float:left;
+    width:50%;
+    /*height:470px;
+    /*background:rgb(1, 18, 253);*/
+}
+
+#conteudo-2-2 {
+    float:right;
+    width:50%;
+    /*height:470px;
+    /*background:purple;*/
+}
+
+.stitch {
+    float:center;
+    margin:0px 50px;
+    height:40%;
+    z-index: 1;
+    position: absolute;
+}
+
+.detona-ralph {
+    margin: 20px 0px 0px -5px;
+    height: 30%;
+    z-index: 1;
+    position: absolute;
+}
+
+.mabel {
+    margin: -40px 0px 0px 30px;
+    height: 45%;
+    z-index: 1;
+    position: absolute;
+}
+
+#redes {
+    font-size:25px;
+    font-weight:bold;
+    margin:-30px 0px 10px 10px;
+}
+
+.logo {
+    margin: 0px 0px 0px 10px;
+    width: 10%;
+    height: 5%;
+}
+
+.botao {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    background-color: palevioletred;
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    transition: 500ms;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0.8;
+    margin: 20px 20px;
+}
+
+.botao:hover {
+    color: palevioletred;
+    background-color: white;
+}
+
+#botao-redes {
+    margin: -10px 5px 10px 5px;
+    font-size:18px;
+}
+
+#botao-curiosidades {
+    margin: 270px 10px 0px 20px;
+}
+
+.lista{
+    margin: 10px 0px 0px -10px;
+}
+
+ul li {
+    color:black;
+}
+
+ul li span {
+    color:black;
+}
+
+[data-list="mostrar"] { 
+    display: block; 
+} 
+  
+[data-list="esconder"] { 
+    display: none; 
+}
+
+#sociais {
+    margin:220px 0px 0px 0px;
+    padding: 5px;
+}
