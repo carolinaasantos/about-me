@@ -1,13 +1,3 @@
-:root {
-    --main-cinza: #CCCCCC;
-    --main-branco: #FFFFFF;
-    --main-preto: #000000;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Jost', sans-serif;
     background: url(../img/wallpaper.jpg);
@@ -35,7 +25,6 @@ body {
     border-radius: 20px;
     display: inline-flex;
     margin: 10px 5px -10px 20px;
-    /*padding: 20px;*/
     align-items: center;
     align-self: flex-end;
 }
@@ -43,28 +32,21 @@ body {
 #conteudo-1 {
     float:left;
     width:34%;
-    /*height:470px;
-    /*background:#bfb;*/
 }
 
 #conteudo-2 {
     float:right;
     width:66%;
-    /*height:470px;*/
 }
 
 #conteudo-2-1 {
     float:left;
     width:50%;
-    /*height:470px;
-    /*background:rgb(1, 18, 253);*/
 }
 
 #conteudo-2-2 {
     float:right;
     width:50%;
-    /*height:470px;
-    /*background:purple;*/
 }
 
 .stitch {
